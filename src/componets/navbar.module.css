@@ -1,0 +1,273 @@
+
+/* navbar */
+
+
+.bgP{
+    background-color: #F5F5F5 ;
+}
+
+.bgS{
+    background-color: #E8E8E8 ;
+}
+
+
+.home{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.active{
+    padding: 9px 18px 9px 18px;
+    background-color: #4DB6AC24;
+    text-align: center;
+}
+.hover:hover{
+    padding: 9px 18px 9px 18px;
+    background-color: #4DB6AC24;
+    transition: 025ms ease-out;
+}
+
+.navbutton1{
+    border-radius: 12px;
+    padding: 18px 36px 18px 36px;
+    background-color: #0A2540;
+    color: white;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: center;
+}
+
+.navbutton2{
+    border-radius: 12px;
+    padding: 18px 36px 18px 36px;
+    background-color: #4DB6AC;
+    color: #333333;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: center;
+}
+
+/* hero-section here */
+
+.hereContainer{
+    width: 739px;
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+    justify-self: center;
+  align-items: center;
+
+}
+
+
+.heroH1{
+    font-size: 90px;
+    font-weight: 700;
+    line-height:106px ;
+    letter-spacing: 0px;
+    align-self: center;
+    color: #0A2540;
+}
+
+.heroP{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    align-items: center;
+    color: #333333;
+}
+
+.herobtn1{
+    border-radius: 12px;
+    padding: 18px 36px 18px 36px ;
+    background-color: #0A2540;
+    color: white;
+    font-size: 16px;
+   
+}
+
+.herobtn2{
+    border-radius: 12px;
+    border: solid 1px #0A2540 ;
+    padding: 18px 36px 18px 36px ;
+    color: #0A2540;
+    font-weight: 600;
+    line-height: 18.75px;
+    align-items: center;
+}
+
+.btnC{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    
+}
+
+/* bar */
+
+.barh3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    align-items: center;
+    color: #333333;
+}
+
+.barh5{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    align-items: center;
+    color: #333333;
+}
+
+/* Search bar */
+
+.search{
+    
+    width: 1182px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 48px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: #0A25402B ;
+    margin-top: -5%;
+    margin-left: 8% ;
+
+}
+
+.sh3{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #0A2540;
+}
+
+.select{
+    width: 277px;
+    height: 57px;
+    border-radius: 12px;
+    border: solid #333333B2 1px;
+    padding: 16px 17px 17px 17px ;
+    color: #333333B2;
+    size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 0.2px;
+}
+.searchbtn{
+    width: 151px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.75px;
+     padding: 16px 17px 17px 17px ;
+    border-radius: 12px;
+    background-color: #0A2540;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+}
+
+/* text-header */
+
+.textH1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #0A2540;
+}
+.textpa{
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #333333;
+}
+
+
+
+/* agents */
+.content{
+    width: 1110px;
+    height: 536px;
+    border-radius: 12px;
+    border: 20px solid #FFFFFF;
+    padding: 24px;
+    display: grid;
+    justify-self: center;
+    gap: 24px;
+}
+
+.tb{
+    width: 271px;
+    height: 232px;
+    padding: 24px ;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: #00000033;
+}
+
+/* slide */
+.slideMin{
+    width: 360px;
+    height: 398px;
+    border-radius: 12px;
+    border: 1px solid #0000000D ;
+    padding: 16px;
+    background-color: #FFFFFF;
+    box-shadow: #00000033;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.slideImg{
+    width: 328px;
+    height: 265px;
+}
+
+.prices{
+    display: flex;
+    flex-direction: row;
+}
+
+.slideh5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    letter-spacing: 0px;
+
+}
+
+.slipara{
+    font-size: 12px;
+    font-weight: 00;
+    line-height: 14.06px;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.laspara{
+    width: 118px;
+    height: 22px;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 10.55px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.swiper-pagination-bullet{
+    width: 16px;
+    height: 16px;
+    background-color: #FFFFFF;
+    background-color: 50%;
+}
