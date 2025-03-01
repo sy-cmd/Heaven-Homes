@@ -4,7 +4,7 @@ import styles from './navbar.module.css';
 const TextHearde = () => {
   return (
     <>
-        <div className=' bg-gray-200 '>
+        <div className=' bg-gray-200 mt-30 mb-30'>
 
         <div className='  justify-self-center  ' >
             <div className='flex flex-col gap-5'>

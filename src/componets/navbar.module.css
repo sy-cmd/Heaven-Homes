@@ -176,6 +176,7 @@
 /* text-header */
 
 .textH1{
+   
     font-size: 40px;
     font-weight: 600;
     line-height: 44px;
@@ -195,17 +196,22 @@
 
 /* agents */
 .content{
-    width: 1110px;
-    height: 536px;
+    width: 915px;
+    height: 566px;
     border-radius: 12px;
     border: 20px solid #FFFFFF;
     padding: 24px;
     display: grid;
     justify-self: center;
-    gap: 24px;
+    justify-content: center;
+    gap: 16px;
+   
 }
 
 .tb{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
     width: 271px;
     height: 232px;
     padding: 24px ;
@@ -214,7 +220,33 @@
     box-shadow: #00000033;
 }
 
+.Agnth5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    letter-spacing: 0px;
+    color: #0A2540;
+}
+
+.Agntp{
+    font-size: 16px;
+    font-family: 400;
+    line-height: 18.75px;
+    letter-spacing: 0.2px;
+    color: #333333;
+}
+
 /* slide */
+.slideMinContainer{
+
+    width: 1160px;
+    height: 456px;
+    display: flex;
+    justify-self: center;
+    align-content: center;
+    margin-right: 2.5%;
+    
+}
 .slideMin{
     width: 360px;
     height: 398px;
@@ -225,12 +257,16 @@
     box-shadow: #00000033;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 32px;
 }
 
 .slideImg{
     width: 328px;
     height: 265px;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #0000000D;
 }
 
 .prices{
@@ -243,12 +279,18 @@
     font-weight: 600;
     line-height: 23.44px;
     letter-spacing: 0px;
+    color: #0A2540;
 
+}
+span{
+    font-size: 14px;
+    font-weight: 400;
+    
 }
 
 .slipara{
     font-size: 12px;
-    font-weight: 00;
+    font-weight: 400;
     line-height: 14.06px;
     letter-spacing: 0px;
     color: #000000;
@@ -270,4 +312,193 @@
     height: 16px;
     background-color: #FFFFFF;
     background-color: 50%;
+}
+
+/* panelSlide */
+.pslide{
+    margin-left: 4%;
+    width: 1012px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border-radius:20px ;
+    padding: 12px 20px 12px 20px ;
+    background-color:#FFFFFF ;
+}
+
+.pslidein{
+    display: flex;
+    width: 248px;
+    height: 66px;
+    border-radius: 12px;
+    padding: 8px 28px 8px 8px ;
+    background-color:#0A2540 ;
+    gap: 16px;
+    color: white;
+    text-align: center;
+}
+
+.pslideinAll{
+    display: flex;
+    width: 188px;
+    height: 66px;
+    border-radius: 12px;
+    padding: 8px 28px 8px 8px ;
+    background-color:#F2F2F2;
+    gap: 16px;
+    color: #333333CC;
+    text-align: center;
+}
+.ptext{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
+/* carosel */
+
+.carBg{
+    width: 1240px;
+    height: 1169px;
+    border-radius: 16px;
+    border: 20px solid #FFFFFF;
+    padding: 40px 40px 60px 40px;
+    background-color: #F2F2F2;
+    display: grid;
+    justify-self: center;
+}
+/* .card1 */
+.card1{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 973px;
+    height: 423px;
+    border-radius: 12px;
+    border: 10px solid #FFFFFF;
+    padding: 40px;
+    background-color:#F2F2F2 ;
+    gap: 40px;
+    justify-self: center;
+   
+
+}
+
+.cardIn{
+    width: 271px;
+    height: 350px;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #FFFFFF;
+    box-shadow:#00000033  ;
+    margin-top: -2%;
+}
+
+.cardh4{
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    color: #0A2540;
+    text-align: center;
+}
+
+.cardP{
+    width: 241px;
+    height: 95px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: #333333;
+
+}
+
+.cardbtn{
+  
+    border-radius: 12px;
+    border: 1px solid #0A2540 ;
+    padding: 12px 36px 12px 36px ;
+    color: #0A2540;
+
+}
+
+
+/* reviews */
+.recontainer{
+    width: 1267px;
+    height: 1104px;
+    display: grid;
+    justify-self: center;
+    gap: 12px;
+}
+
+.reMain{
+    width: 1267px;
+    height: 546px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+}
+
+.reInternalContainer{
+    width: 413px;
+    height: 546px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:#FFFFFF ;
+    border-radius: 12px;
+}
+
+.reSmallCol{
+    width:373px ;
+    height: 267px;
+    display: flex;
+    flex-direction: column;
+    gap:20px ;
+    padding: 20px;
+    background-color:#FFFFFF ;
+    border-radius: 12px;
+}
+
+.reimg{
+    width: 67px;
+    height: 67px;
+    border-radius: 41px;
+    color:#FFFFFF ;
+}
+
+.rename{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.75px;
+    letter-spacing: 0%;
+    color: #000000;
+
+}
+
+.resubName{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    
+    color: #8C8C8C;
+}
+
+.repara{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #707070;
 }
