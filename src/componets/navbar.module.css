@@ -239,12 +239,13 @@
 /* slide */
 .slideMinContainer{
 
-    width: 1160px;
-    height: 456px;
+    width: 873px;
+    height: 476px;
     display: flex;
     justify-self: center;
     align-content: center;
     margin-right: 2.5%;
+   
     
 }
 .slideMin{
@@ -259,6 +260,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 32px;
+    margin-right: 2.5%;
 }
 
 .slideImg{
@@ -501,4 +503,477 @@ span{
     letter-spacing: 0.2px;
     text-align: center;
     color: #707070;
+}
+
+/* caroselAgent */
+
+.CaroselAmainC{
+    width: 953px;
+    height: 540px;
+    border-radius: 12px;
+    padding: 12px 40px 12px 40px ;
+    background-color:#F2F2F2 ;
+    display: flex;
+    flex-direction: column;
+    gap:12px ;
+    justify-self: center;
+
+}
+
+.cAgentBar{
+    width: 781px;
+    height: 65px;
+    border-radius: 20px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    background-color: #F2F2F2;
+
+}
+
+.cAgentBar1{
+    width: 137px;
+    height: 47px;
+    border-radius: 12px;
+    padding: 14px 28px 14px 28px ;
+    background-color: #4DB6AC;
+    color:#FFFFFF ;
+    box-shadow:#00000029 ;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.75px;
+    text-align: center;
+}
+
+.cAgentBarall{
+    margin-top: 2%;
+   
+    color:#000000B2;
+  
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.75px;
+    text-align: center;
+}
+
+.cAgentmain{
+    width: 275px;
+    height: 438px;
+    border-radius: 16px;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #FFFFFF;
+    box-shadow:#00000033 ;
+
+}
+
+.cAgentmini{
+    width:235px ;
+    height: 60px;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cAgentBarimg{
+    width: 235px;
+    height: 36px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #0A2540;
+}
+
+.cAgentimg{
+    width: 80px;
+    height: 80px;
+    border-radius: 41px;
+   
+    padding: 10px;
+    color:#FFFFFF ;
+    box-shadow: #00000012;
+    margin-top: -15%;
+    background-position: cover;
+
+}
+
+.cAgentname1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+}
+
+.cAgentcontent{
+    width: 235px;
+    height: 153px;
+    border-radius: 16px;
+    padding: 10px 8px 10px 8px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+}
+
+.cAgentcontentInner{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cAgentpara{
+    width: 94px;
+    height: 31px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.23px;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#FFFFFF ;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 12px;
+    box-shadow: #00000029;
+}
+
+.cAgentperMain{
+    width: 235px;
+    height: 72px;
+    border-radius: 12px;
+    padding: 10px;
+    background-color:#F2F2F2 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cAgentperMin{
+    width: 60px;
+    height: 52px;
+    border-radius: 8px;
+    padding: 10px 11px 10px 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    background-color:#E6E6E6 ;
+    box-shadow: #0000001F;
+    align-items: center;
+}
+
+.CagentAllpara{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 14.06px;
+    letter-spacing: 0%;
+    color: #000000CC;
+    text-align: center;
+}
+
+.CagentSmallpara{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.06px;
+    letter-spacing: 0%;
+    color: #00000099;
+   
+}
+
+.Cagentbtn{
+    width: 235px;
+    height: 38px;
+    border-radius: 8px;
+    padding: 12px 24px 12px 24px ;
+    background-color: #4DB6AC;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+    letter-spacing: 0%;
+}
+.Cagentbtn2{
+    width: 235px;
+    height: 38px;
+    border-radius: 8px;
+    padding: 12px 24px 12px 24px ;
+    background-color: #0A2540;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+    letter-spacing: 0%;
+}
+
+/* AgentCard */
+.AgentcardMainHU{
+    width: 444px;
+    height: 281px;
+    border-radius: 12px;
+    padding: 12px 16px 24px 16px;
+    background-color: #F2F2F2 ;
+   
+}
+
+.AgentcardMainC{
+    width: 412px;
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    /* border-radius: 12px;
+    padding: 12px 16px 24px 16px;
+    background-color: #F2F2F2 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     gap: 12px;
+      */
+}
+
+.Agentcardh4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    letter-spacing: 0%;
+    color: #000000;
+    text-align: center;
+}
+
+.AgentcardInnerC{
+    margin-top: 5%;
+    width: 200px;
+    height: 99px;
+    border-radius: 12px;
+    border-bottom: 1px solid ;
+    padding: 12px;
+    background-color:#FFFFFF ;
+    box-shadow: #00000033;
+    display: flex;
+    flex-direction: row;
+    gap:10px ;
+}
+
+.Agentcardpara1{
+    font-size: 14px ;
+    font-weight: 400;
+    line-height: 16.41px;
+    letter-spacing: 0%;
+    color: #5C5C5C;
+}
+
+.Agentcardpara2{
+    font-size: 32px ;
+    font-weight: 700;
+    line-height: 37.5px;
+    letter-spacing: 0%;
+    color: #000000CC;
+}
+
+.AgentcardparaDiv{
+    width: 114px;
+    height: 11px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.AgentcardparaDivText{
+    font-size: 6px;
+    font-weight: 400;
+    line-height: 7.03px;
+    letter-spacing: 0%;
+    color: #5C5C5C;
+}
+
+.AgentcardparaDivText2{
+    font-size: 6px;
+    font-weight: 400;
+    line-height: 7.03px;
+    letter-spacing: 0%;
+    color: #05DA5A;
+}
+
+.AgentcardparaDivInner{
+    width: 37px;
+    height: 11px;
+    padding-right: 2px;
+    padding-left: 2px;
+    background-color: #BBFFD666;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+.AgentcardIconsBA{
+    width: 38px;
+    height: 38px;
+    border-radius: 52px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.Agentca2main{
+    width: 395px;
+    height: 281px;
+    border-radius: 12px;
+    padding: 12px 16px 24px 16px;
+    background-color: #F2F2F2;
+    align-items: center;
+}
+
+.Agentca2min{
+    width: 363px;
+    height: 210px;
+    border-radius: 12px;
+    padding: 10px 12px 10px 12px ;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    background-color: #FFFFFF;
+    box-shadow:#00000033 ;
+    margin-top: 1%;
+}
+
+.Agentca2img1{
+    width: 80px;
+    height: 80px;
+    border-radius: 73px;
+    
+    padding: 10px;
+    box-shadow: #00000012;
+    background-color: #FFFFFF;
+}
+ 
+.Agentca2img2{
+    width: 60px;
+    height: 60px;
+}
+
+.Agentca2content1{
+    width: 80px;
+    height: 179px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.Agentca2para1{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.06px;
+    letter-spacing: 0%;
+    color: #0029FFA3;
+}
+
+.Agentca2para2{
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 9.38px;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+}
+
+
+.Agentca2cont{
+    width: 241px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.Agentca2contName{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.Agentca2contp1{
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 10.55px;
+    letter-spacing: 0%;
+    color:#000000B2;
+}
+
+.Agentca2contspan{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.55px;
+    letter-spacing: 0%;
+    color:#5C5C5C;
+}
+
+.Agentca2contsp2{
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 10.89px;
+  initial-letter: 0%;
+  text-decoration: underline ;
+  color: #000000;
+ 
+}
+
+.Agentca2contsbgI{
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #4DB6AC;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.Agentca2contsbtn{
+    width: 218px;
+    height: 35px;
+    border-radius: 8px;
+    padding: 8px 4px 8px 4px;
+    background-color:#0A2540 ;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Agentca2contsbtntxt{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.52px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+/* mainAgent */
+.mainagaentconta{
+    width: 1001px;
+    height: 966px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 20px;
+   background-color: #FFFFFF;
+   box-shadow: bottom #00000040;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-self: center;
 }

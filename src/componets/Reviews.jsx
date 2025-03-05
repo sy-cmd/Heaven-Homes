@@ -4,7 +4,7 @@ import styles from './navbar.module.css';
 const Reviews = () => {
   return (
    <>
-        <div className='grid justify-self-center'>
+        <div className='grid justify-self-center mt-50'>
 
         <div className='flex flex-col gap-5'>
         <h3 className={`${styles.textH1} font-Roboto `}> Hear from Happy Homeowners</h3>

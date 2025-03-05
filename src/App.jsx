@@ -10,6 +10,10 @@ import Testing from './componets/Testing';
 import Carosel from './componets/carosel';
 import Card from './componets/Card';
 import Reviews from './componets/Reviews';
+import CaroselAgent from './componets/CaroselAgent';
+import AgentCard from './componets/AgentCard';
+import MainAgent from './componets/MainAgent';
+import LandCarosel from './componets/LandCarosel';
 
 
 
@@ -17,18 +21,22 @@ const App = () => {
   return (
     <>
     <div className='bg-gray-200'>
-     <NavBar/>
+     {/* <NavBar/>
     <Hero />
     <Bar/>
     <SearchBar/> 
     <TextHearde/> 
     <Carosel/>
    <Agents/>
-    <Reviews/>
-   
+    <Reviews/> */}
+      {/* <CaroselAgent/> */}
    {/* <Testing/> */}
+   {/* <AgentCard/> */}
+   {/* <MainAgent/> */}
+   {/* <CardSlider/> */}
+   <LandCarosel/>
     
-    <CardSlider/>
+   
     </div>
 
      
