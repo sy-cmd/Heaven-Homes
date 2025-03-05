@@ -14,6 +14,12 @@ import CaroselAgent from './componets/CaroselAgent';
 import AgentCard from './componets/AgentCard';
 import MainAgent from './componets/MainAgent';
 import LandCarosel from './componets/LandCarosel';
+import LandAgent from './componets/LandCard';
+import MainLandCarosel from './componets/MainLandCarosel';
+import TextHeader2 from './TextHeader2';
+import TextHeaader2 from './componets/TextHeaader2';
+import BarMain from './componets/BarMain';
+import Footer from './componets/Footer';
 
 
 
@@ -21,20 +27,20 @@ const App = () => {
   return (
     <>
     <div className='bg-gray-200'>
-     {/* <NavBar/>
-    <Hero />
-    <Bar/>
-    <SearchBar/> 
-    <TextHearde/> 
-    <Carosel/>
-   <Agents/>
-    <Reviews/> */}
-      {/* <CaroselAgent/> */}
-   {/* <Testing/> */}
-   {/* <AgentCard/> */}
-   {/* <MainAgent/> */}
-   {/* <CardSlider/> */}
-   <LandCarosel/>
+     <NavBar/>
+     <Hero />
+      <Bar/>
+     <SearchBar/> 
+      <TextHearde/> 
+     <Carosel/>
+     <Agents/>
+     <TextHeaader2/>
+     <MainLandCarosel/> 
+     <Reviews/> 
+      <BarMain/>
+
+      <Footer/>
+ 
     
    
     </div>

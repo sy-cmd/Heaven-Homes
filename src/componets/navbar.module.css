@@ -239,7 +239,7 @@
 /* slide */
 .slideMinContainer{
 
-    width: 873px;
+    width: 1160px;
     height: 476px;
     display: flex;
     justify-self: center;
@@ -373,7 +373,7 @@ span{
 }
 /* .card1 */
 .card1{
-    margin-top: 5%;
+    margin-top: 3%;
     display: flex;
     flex-direction: row;
     width: 973px;
@@ -977,3 +977,202 @@ span{
    align-items: center;
    justify-self: center;
 }
+
+/* LandCarousel */
+.Landslideh5{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color:#000000 ;
+
+}
+
+.Landlaspara{
+    width: 178px;
+    height: 22px;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 10.55px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #333333;
+}
+
+/* LANDCARD */
+
+.LandcardIn{
+    width: 271px;
+    height: 365px;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #FFFFFF;
+    box-shadow:#00000033  ;
+    margin-top: -2%;
+}
+
+.LandcardP{
+    margin-top: -3%;
+    width: 241px;
+    height: 95px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: #333333;
+
+}
+
+/* BarMain */
+.BarmainContainer{
+    width: 1267px ;
+    height: 400px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    background-color:#0A2540 ;
+    justify-self: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 5%;
+}
+
+.BarminContainer{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    justify-self: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+/* .BarInnerC{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-self: center;
+    align-items: center;
+} */
+
+.BarinnerCh3{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56.25px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.BarinnerCpara{
+    width: 516px;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.BarinnerChbtn{
+    width: 193px;
+    height: 64px;
+    border-radius: 12px;
+    border: 2px solid #4DB6AC ;
+    padding: 18px 36px 18px 36px ;
+    background-color: #4DB6AC;
+    box-shadow: #4DB6AC80 ;
+    text-align: center;
+}
+
+/* footer */
+
+.footermainC{
+    margin-top: 5%;
+    /* width: 1140px; */
+    /* height: 911px; */
+    background-color:#0A2540 ;
+}
+
+.footerminC{
+    width: 1260px;
+    height: 656px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-self: center;
+    justify-content: start;
+    padding-top: 2%;
+
+}
+
+
+.footermainh3{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 43.58px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.footermainh5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.footermainpara{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.footermainspan{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #E8E8E8;
+}
+
+.footerbtn{
+    width: 251px;
+    height: 55px;
+    border-radius: 12px;
+    border: 1px solid #FFFFFF99 ;
+    padding: 18px 11px 18px 11px ;
+    color: #BEBEBE;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    letter-spacing: 0px;
+    text-align: start;
+
+}
+
+.footerbtn1{
+    width: 144px;
+    height: 55px;
+    border-radius: 12px;
+    background-color: #4DB6AC;
+    padding: 18px 11px 18px 11px ;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.75px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+

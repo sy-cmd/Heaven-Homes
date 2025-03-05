@@ -54,7 +54,7 @@ const LandCarosel = () => {
     grabCursor={true}
     initialSlide={5}
     centeredSlides={true}
-    slidesPerView="2"
+    slidesPerView="3"
     speed={3000}
     slideToClickedSlide={true}
     pagination={{ clickable: true }}
@@ -72,7 +72,7 @@ const LandCarosel = () => {
           </div>
           <div className='flex flex-row justify-between'>
             <div className='flex flex-col'>
-            <h5 className={`${styles.slideh5} font-Roboto`} >$822,799.99</h5>
+            <h5 className={`${styles.Landslideh5} font-Roboto`} >Green Acres Farm</h5>
            
 
             </div>
@@ -82,7 +82,7 @@ const LandCarosel = () => {
           </div>
 
           <div className='flex flex-row justify-between '>
-            <p className={ `${styles.laspara} font-Roboto `} >730 Red Barn Way, Nashville, TN 37218</p>
+            <p className={ `${styles.Landlaspara} font-Roboto `} >730 Red Barn Way, Nashville, TN 37218</p>
 
          
           </div>
@@ -91,71 +91,257 @@ const LandCarosel = () => {
       <SwiperSlide className='swiper-slide slide-1' >
         <div className={styles.slideMin}>
           <div className={styles.slideImg }>
-            <img src="/public/img/cf765f55b43f14c6f9deb46b7fc524a6.jfif" alt="" />
+            <img src="/public/img/land/29bef90b1f63e933257f2188019141c2.jfif" alt="" />
           </div>
           <div className='flex flex-row justify-between'>
-            <h5 className={`${styles.slideh5} font-Roboto`} >$822,799.99</h5>
-
-            <div className=' flex flex-row gap-2'>
-            <div className={` flex flex-row`}>
-            <FaRegHeart size={17} height={50} r  /><p className={ `${styles.slipara} font-Roboto ml-1 `} >90.2k</p>
-            </div>
-            <div className={` flex flex-row`}>
-            <IoIosShareAlt size={15} /><p className={ `${styles.slipara} font-Roboto ml-1 `} >17K</p>
-            </div>
-            <div className={` flex flex-row`}>
-            <GrSave size={15} /><p className={ `${styles.slipara} font-Roboto ml-1 `} >90.2k</p>
-            </div>
+            <div className='flex flex-col'>
+            <h5 className={`${styles.Landslideh5} font-Roboto`} >Sunnybrook Fields</h5>
            
+
             </div>
+            
+
+         
           </div>
 
           <div className='flex flex-row justify-between '>
-            <p className={ `${styles.laspara} font-Roboto `} >1987 E Crestwood Dr Unit 4A,
-            Los Angeles, CA 90026</p>
+            <p className={ `${styles.Landlaspara} font-Roboto `} >4821 Green Pasture Ln, Lexington, KY 40509</p>
 
-            <div className=' flex flex-row gap-2'>
-              <p className={ `${styles.slipara} font-Roboto `}>3 baths</p> <hr />
-              <p className={ `${styles.slipara} font-Roboto `}>6 Beds</p>
-              <p className={ `${styles.slipara} font-Roboto `}>3.3k sq ft</p>
-            </div>
+         
           </div>
         </div>
       </SwiperSlide>
       <SwiperSlide className='swiper-slide slide-1' >
         <div className={styles.slideMin}>
           <div className={styles.slideImg }>
-            <img src="/public/img/f665c89303db60e671675edb17c1fc06.jfif" alt="" />
+            <img src="/public/img/land/e981d2c6c2e3b00582eed7c7298991b5.jfif" alt="" />
           </div>
           <div className='flex flex-row justify-between'>
-            <h5 className={`${styles.slideh5} font-Roboto`} >$822,799.99</h5>
-
-            <div className=' flex flex-row gap-2'>
-            <div className={` flex flex-row`}>
-            <FaRegHeart size={17} height={50} r  /><p className={ `${styles.slipara} font-Roboto ml-1 `} >90.2k</p>
-            </div>
-            <div className={` flex flex-row`}>
-            <IoIosShareAlt size={15} /><p className={ `${styles.slipara} font-Roboto ml-1 `} >17K</p>
-            </div>
-            <div className={` flex flex-row`}>
-            <GrSave size={15} /><p className={ `${styles.slipara} font-Roboto ml-1 `} >90.2k</p>
-            </div>
+            <div className='flex flex-col'>
+            <h5 className={`${styles.Landslideh5} font-Roboto`} >Stains reserves</h5>
            
+
             </div>
+            
+
+         
           </div>
 
           <div className='flex flex-row justify-between '>
-            <p className={ `${styles.laspara} font-Roboto `} >1987 E Crestwood Dr Unit 4A,
-            Los Angeles, CA 90026</p>
+            <p className={ `${styles.Landlaspara} font-Roboto `} >1520 Harvest Moon Rd, Springfield, IL 62711</p>
 
-            <div className=' flex flex-row gap-2'>
-              <p className={ `${styles.slipara} font-Roboto `}>3 baths</p> <hr />
-              <p className={ `${styles.slipara} font-Roboto `}>6 Beds</p>
-              <p className={ `${styles.slipara} font-Roboto `}>3.3k sq ft</p>
-            </div>
+         
           </div>
         </div>
       </SwiperSlide>
+      <SwiperSlide className='swiper-slide slide-1' >
+        <div className={styles.slideMin}>
+          <div className={styles.slideImg }>
+            <img src="/public/img/land/9929a632df4317539c3922c17e6936fe.jfif" alt="" />
+          </div>
+          <div className='flex flex-row justify-between'>
+            <div className='flex flex-col'>
+            <h5 className={`${styles.Landslideh5} font-Roboto`} >Green Acres Farm</h5>
+           
+
+            </div>
+            
+
+         
+          </div>
+
+          <div className='flex flex-row justify-between '>
+            <p className={ `${styles.Landlaspara} font-Roboto `} >730 Red Barn Way, Nashville, TN 37218</p>
+
+         
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide className='swiper-slide slide-1' >
+        <div className={styles.slideMin}>
+          <div className={styles.slideImg }>
+            <img src="/public/img/land/29bef90b1f63e933257f2188019141c2.jfif" alt="" />
+          </div>
+          <div className='flex flex-row justify-between'>
+            <div className='flex flex-col'>
+            <h5 className={`${styles.Landslideh5} font-Roboto`} >Sunnybrook Fields</h5>
+           
+
+            </div>
+            
+
+         
+          </div>
+
+          <div className='flex flex-row justify-between '>
+            <p className={ `${styles.Landlaspara} font-Roboto `} >4821 Green Pasture Ln, Lexington, KY 40509</p>
+
+         
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide className='swiper-slide slide-1' >
+        <div className={styles.slideMin}>
+          <div className={styles.slideImg }>
+            <img src="/public/img/land/e981d2c6c2e3b00582eed7c7298991b5.jfif" alt="" />
+          </div>
+          <div className='flex flex-row justify-between'>
+            <div className='flex flex-col'>
+            <h5 className={`${styles.Landslideh5} font-Roboto`} >Stains reserves</h5>
+           
+
+            </div>
+            
+
+         
+          </div>
+
+          <div className='flex flex-row justify-between '>
+            <p className={ `${styles.Landlaspara} font-Roboto `} >1520 Harvest Moon Rd, Springfield, IL 62711</p>
+
+         
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide className='swiper-slide slide-1' >
+        <div className={styles.slideMin}>
+          <div className={styles.slideImg }>
+            <img src="/public/img/land/9929a632df4317539c3922c17e6936fe.jfif" alt="" />
+          </div>
+          <div className='flex flex-row justify-between'>
+            <div className='flex flex-col'>
+            <h5 className={`${styles.Landslideh5} font-Roboto`} >Green Acres Farm</h5>
+           
+
+            </div>
+            
+
+         
+          </div>
+
+          <div className='flex flex-row justify-between '>
+            <p className={ `${styles.Landlaspara} font-Roboto `} >730 Red Barn Way, Nashville, TN 37218</p>
+
+         
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide className='swiper-slide slide-1' >
+        <div className={styles.slideMin}>
+          <div className={styles.slideImg }>
+            <img src="/public/img/land/29bef90b1f63e933257f2188019141c2.jfif" alt="" />
+          </div>
+          <div className='flex flex-row justify-between'>
+            <div className='flex flex-col'>
+            <h5 className={`${styles.Landslideh5} font-Roboto`} >Sunnybrook Fields</h5>
+           
+
+            </div>
+            
+
+         
+          </div>
+
+          <div className='flex flex-row justify-between '>
+            <p className={ `${styles.Landlaspara} font-Roboto `} >4821 Green Pasture Ln, Lexington, KY 40509</p>
+
+         
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide className='swiper-slide slide-1' >
+        <div className={styles.slideMin}>
+          <div className={styles.slideImg }>
+            <img src="/public/img/land/e981d2c6c2e3b00582eed7c7298991b5.jfif" alt="" />
+          </div>
+          <div className='flex flex-row justify-between'>
+            <div className='flex flex-col'>
+            <h5 className={`${styles.Landslideh5} font-Roboto`} >Stains reserves</h5>
+           
+
+            </div>
+            
+
+         
+          </div>
+
+          <div className='flex flex-row justify-between '>
+            <p className={ `${styles.Landlaspara} font-Roboto `} >1520 Harvest Moon Rd, Springfield, IL 62711</p>
+
+         
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide className='swiper-slide slide-1' >
+        <div className={styles.slideMin}>
+          <div className={styles.slideImg }>
+            <img src="/public/img/land/9929a632df4317539c3922c17e6936fe.jfif" alt="" />
+          </div>
+          <div className='flex flex-row justify-between'>
+            <div className='flex flex-col'>
+            <h5 className={`${styles.Landslideh5} font-Roboto`} >Green Acres Farm</h5>
+           
+
+            </div>
+            
+
+         
+          </div>
+
+          <div className='flex flex-row justify-between '>
+            <p className={ `${styles.Landlaspara} font-Roboto `} >730 Red Barn Way, Nashville, TN 37218</p>
+
+         
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide className='swiper-slide slide-1' >
+        <div className={styles.slideMin}>
+          <div className={styles.slideImg }>
+            <img src="/public/img/land/29bef90b1f63e933257f2188019141c2.jfif" alt="" />
+          </div>
+          <div className='flex flex-row justify-between'>
+            <div className='flex flex-col'>
+            <h5 className={`${styles.Landslideh5} font-Roboto`} >Sunnybrook Fields</h5>
+           
+
+            </div>
+            
+
+         
+          </div>
+
+          <div className='flex flex-row justify-between '>
+            <p className={ `${styles.Landlaspara} font-Roboto `} >4821 Green Pasture Ln, Lexington, KY 40509</p>
+
+         
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide className='swiper-slide slide-1' >
+        <div className={styles.slideMin}>
+          <div className={styles.slideImg }>
+            <img src="/public/img/land/e981d2c6c2e3b00582eed7c7298991b5.jfif" alt="" />
+          </div>
+          <div className='flex flex-row justify-between'>
+            <div className='flex flex-col'>
+            <h5 className={`${styles.Landslideh5} font-Roboto`} >Stains reserves</h5>
+           
+
+            </div>
+            
+
+         
+          </div>
+
+          <div className='flex flex-row justify-between '>
+            <p className={ `${styles.Landlaspara} font-Roboto `} >1520 Harvest Moon Rd, Springfield, IL 62711</p>
+
+         
+          </div>
+        </div>
+      </SwiperSlide>
+     
 
     </Swiper>
 
@@ -166,3 +352,296 @@ const LandCarosel = () => {
 }
 
 export default LandCarosel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <SwiperSlide className='swiper-slide slide-1' >
+<div className={styles.slideMin}>
+  <div className={styles.slideImg }>
+    <img src="/public/img/land/9929a632df4317539c3922c17e6936fe.jfif" alt="" />
+  </div>
+  <div className='flex flex-row justify-between'>
+    <div className='flex flex-col'>
+    <h5 className={`${styles.Landslideh5} font-Roboto`} >Green Acres Farm</h5>
+   
+
+    </div>
+    
+
+ 
+  </div>
+
+  <div className='flex flex-row justify-between '>
+    <p className={ `${styles.Landlaspara} font-Roboto `} >730 Red Barn Way, Nashville, TN 37218</p>
+
+ 
+  </div>
+</div>
+</SwiperSlide>
+<SwiperSlide className='swiper-slide slide-1' >
+<div className={styles.slideMin}>
+  <div className={styles.slideImg }>
+    <img src="/public/img/land/29bef90b1f63e933257f2188019141c2.jfif" alt="" />
+  </div>
+  <div className='flex flex-row justify-between'>
+    <div className='flex flex-col'>
+    <h5 className={`${styles.Landslideh5} font-Roboto`} >Sunnybrook Fields</h5>
+   
+
+    </div>
+    
+
+ 
+  </div>
+
+  <div className='flex flex-row justify-between '>
+    <p className={ `${styles.Landlaspara} font-Roboto `} >4821 Green Pasture Ln, Lexington, KY 40509</p>
+
+ 
+  </div>
+</div>
+</SwiperSlide>
+<SwiperSlide className='swiper-slide slide-1' >
+<div className={styles.slideMin}>
+  <div className={styles.slideImg }>
+    <img src="/public/img/land/e981d2c6c2e3b00582eed7c7298991b5.jfif" alt="" />
+  </div>
+  <div className='flex flex-row justify-between'>
+    <div className='flex flex-col'>
+    <h5 className={`${styles.Landslideh5} font-Roboto`} >Stains reserves</h5>
+   
+
+    </div>
+    
+
+ 
+  </div>
+
+  <div className='flex flex-row justify-between '>
+    <p className={ `${styles.Landlaspara} font-Roboto `} >1520 Harvest Moon Rd, Springfield, IL 62711</p>
+
+ 
+  </div>
+</div>
+</SwiperSlide>
+<SwiperSlide className='swiper-slide slide-1' >
+<div className={styles.slideMin}>
+  <div className={styles.slideImg }>
+    <img src="/public/img/land/9929a632df4317539c3922c17e6936fe.jfif" alt="" />
+  </div>
+  <div className='flex flex-row justify-between'>
+    <div className='flex flex-col'>
+    <h5 className={`${styles.Landslideh5} font-Roboto`} >Green Acres Farm</h5>
+   
+
+    </div>
+    
+
+ 
+  </div>
+
+  <div className='flex flex-row justify-between '>
+    <p className={ `${styles.Landlaspara} font-Roboto `} >730 Red Barn Way, Nashville, TN 37218</p>
+
+ 
+  </div>
+</div>
+</SwiperSlide>
+<SwiperSlide className='swiper-slide slide-1' >
+<div className={styles.slideMin}>
+  <div className={styles.slideImg }>
+    <img src="/public/img/land/29bef90b1f63e933257f2188019141c2.jfif" alt="" />
+  </div>
+  <div className='flex flex-row justify-between'>
+    <div className='flex flex-col'>
+    <h5 className={`${styles.Landslideh5} font-Roboto`} >Sunnybrook Fields</h5>
+   
+
+    </div>
+    
+
+ 
+  </div>
+
+  <div className='flex flex-row justify-between '>
+    <p className={ `${styles.Landlaspara} font-Roboto `} >4821 Green Pasture Ln, Lexington, KY 40509</p>
+
+ 
+  </div>
+</div>
+</SwiperSlide>
+<SwiperSlide className='swiper-slide slide-1' >
+<div className={styles.slideMin}>
+  <div className={styles.slideImg }>
+    <img src="/public/img/land/e981d2c6c2e3b00582eed7c7298991b5.jfif" alt="" />
+  </div>
+  <div className='flex flex-row justify-between'>
+    <div className='flex flex-col'>
+    <h5 className={`${styles.Landslideh5} font-Roboto`} >Stains reserves</h5>
+   
+
+    </div>
+    
+
+ 
+  </div>
+
+  <div className='flex flex-row justify-between '>
+    <p className={ `${styles.Landlaspara} font-Roboto `} >1520 Harvest Moon Rd, Springfield, IL 62711</p>
+
+ 
+  </div>
+</div>
+</SwiperSlide>
+<SwiperSlide className='swiper-slide slide-1' >
+<div className={styles.slideMin}>
+  <div className={styles.slideImg }>
+    <img src="/public/img/land/9929a632df4317539c3922c17e6936fe.jfif" alt="" />
+  </div>
+  <div className='flex flex-row justify-between'>
+    <div className='flex flex-col'>
+    <h5 className={`${styles.Landslideh5} font-Roboto`} >Green Acres Farm</h5>
+   
+
+    </div>
+    
+
+ 
+  </div>
+
+  <div className='flex flex-row justify-between '>
+    <p className={ `${styles.Landlaspara} font-Roboto `} >730 Red Barn Way, Nashville, TN 37218</p>
+
+ 
+  </div>
+</div>
+</SwiperSlide>
+<SwiperSlide className='swiper-slide slide-1' >
+<div className={styles.slideMin}>
+  <div className={styles.slideImg }>
+    <img src="/public/img/land/29bef90b1f63e933257f2188019141c2.jfif" alt="" />
+  </div>
+  <div className='flex flex-row justify-between'>
+    <div className='flex flex-col'>
+    <h5 className={`${styles.Landslideh5} font-Roboto`} >Sunnybrook Fields</h5>
+   
+
+    </div>
+    
+
+ 
+  </div>
+
+  <div className='flex flex-row justify-between '>
+    <p className={ `${styles.Landlaspara} font-Roboto `} >4821 Green Pasture Ln, Lexington, KY 40509</p>
+
+ 
+  </div>
+</div>
+</SwiperSlide>
+<SwiperSlide className='swiper-slide slide-1' >
+<div className={styles.slideMin}>
+  <div className={styles.slideImg }>
+    <img src="/public/img/land/e981d2c6c2e3b00582eed7c7298991b5.jfif" alt="" />
+  </div>
+  <div className='flex flex-row justify-between'>
+    <div className='flex flex-col'>
+    <h5 className={`${styles.Landslideh5} font-Roboto`} >Stains reserves</h5>
+   
+
+    </div>
+    
+
+ 
+  </div>
+
+  <div className='flex flex-row justify-between '>
+    <p className={ `${styles.Landlaspara} font-Roboto `} >1520 Harvest Moon Rd, Springfield, IL 62711</p>
+
+ 
+  </div>
+</div>
+</SwiperSlide>
+<SwiperSlide className='swiper-slide slide-1' >
+<div className={styles.slideMin}>
+  <div className={styles.slideImg }>
+    <img src="/public/img/land/9929a632df4317539c3922c17e6936fe.jfif" alt="" />
+  </div>
+  <div className='flex flex-row justify-between'>
+    <div className='flex flex-col'>
+    <h5 className={`${styles.Landslideh5} font-Roboto`} >Green Acres Farm</h5>
+   
+
+    </div>
+    
+
+ 
+  </div>
+
+  <div className='flex flex-row justify-between '>
+    <p className={ `${styles.Landlaspara} font-Roboto `} >730 Red Barn Way, Nashville, TN 37218</p>
+
+ 
+  </div>
+</div>
+</SwiperSlide>
+<SwiperSlide className='swiper-slide slide-1' >
+<div className={styles.slideMin}>
+  <div className={styles.slideImg }>
+    <img src="/public/img/land/29bef90b1f63e933257f2188019141c2.jfif" alt="" />
+  </div>
+  <div className='flex flex-row justify-between'>
+    <div className='flex flex-col'>
+    <h5 className={`${styles.Landslideh5} font-Roboto`} >Sunnybrook Fields</h5>
+   
+
+    </div>
+    
+
+ 
+  </div>
+
+  <div className='flex flex-row justify-between '>
+    <p className={ `${styles.Landlaspara} font-Roboto `} >4821 Green Pasture Ln, Lexington, KY 40509</p>
+
+ 
+  </div>
+</div>
+</SwiperSlide>
+<SwiperSlide className='swiper-slide slide-1' >
+<div className={styles.slideMin}>
+  <div className={styles.slideImg }>
+    <img src="/public/img/land/e981d2c6c2e3b00582eed7c7298991b5.jfif" alt="" />
+  </div>
+  <div className='flex flex-row justify-between'>
+    <div className='flex flex-col'>
+    <h5 className={`${styles.Landslideh5} font-Roboto`} >Stains reserves</h5>
+   
+
+    </div>
+    
+
+ 
+  </div>
+
+  <div className='flex flex-row justify-between '>
+    <p className={ `${styles.Landlaspara} font-Roboto `} >1520 Harvest Moon Rd, Springfield, IL 62711</p>
+
+ 
+  </div>
+</div>
+</SwiperSlide> */}
