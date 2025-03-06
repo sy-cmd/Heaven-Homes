@@ -19,7 +19,7 @@ const CaroselAgent = () => {
           <div className={styles.CaroselAmainC}>
           
 
-<div className={ styles.slideMinContainer } >
+<div className={ styles.slideMinContainerAgent } >
 <Swiper 
 modules={ [Pagination , Scrollbar, A11y, Autoplay,   Navigation ]}
 

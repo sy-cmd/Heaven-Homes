@@ -12,7 +12,7 @@ const TextHeaader2 = () => {
                       Exceptional Land Deals – Secure Yours Today
                       </h3>
                        <p className={styles.textpa} >Discover prime land in sought-after locations, perfect for building, investing, or expanding your vision. Explore our exclusive listings today!</p>
-                  <div className=' flex gap-10 justify-self-center ml-60'>
+                  <div className=' flex gap-10 justify-self-center ml-80'>
                   <button className={ styles.navbutton1}> Get started</button>
                   <button className={ styles.navbutton2}> Learn more</button>
                   </div>

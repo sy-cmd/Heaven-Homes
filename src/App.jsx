@@ -20,6 +20,7 @@ import TextHeader2 from './TextHeader2';
 import TextHeaader2 from './componets/TextHeaader2';
 import BarMain from './componets/BarMain';
 import Footer from './componets/Footer';
+import TextHeader3 from './componets/TextHeader3';
 
 
 
@@ -34,6 +35,8 @@ const App = () => {
       <TextHearde/> 
      <Carosel/>
      <Agents/>
+     <TextHeader3/>
+     <MainAgent/>
      <TextHeaader2/>
      <MainLandCarosel/> 
      <Reviews/> 

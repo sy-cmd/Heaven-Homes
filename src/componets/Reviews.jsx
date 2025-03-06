@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './navbar.module.css';
+import { FaStar } from "react-icons/fa";
 
 const Reviews = () => {
   return (
@@ -23,6 +24,13 @@ const Reviews = () => {
             <p className={`${styles.repara} font-Roboto`}>A company’s success is largely defined by its commitment to customer satisfaction, and Haven Homes excels in this area. Their team prioritizes personalized service, taking the time to understand each client's unique needs. They are responsive, proactive, and always willing to go the extra mile to ensure a smooth experience. The positive testimonials from their clients reflect this dedication. Their team prioritizes personalized service, taking the time to understand each client's unique needs. They are responsive, proactive, and always willing to go the extra mile to ensure a smooth experience. 
 
                             </p>
+                            <div className='flex flex-row gap-2 mt-14'>
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            </div>
         </div>
 
         <div className='flex flex-col gap-3'>
@@ -38,6 +46,13 @@ const Reviews = () => {
                 </div>
                 <p className={`${styles.repara} font-Roboto`} >Haven Homes exceeded my expectations. They were knowledgeable, responsive, and truly cared about finding me the right
                      property. I'm so grateful for their help.</p>
+                     <div className='flex flex-row gap-2 '>
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            </div>
             </div>
             <div className={ styles.reSmallCol} >
                 
@@ -50,6 +65,13 @@ const Reviews = () => {
                 </div>
                 <p className={`${styles.repara} font-Roboto`} >I was impressed by Haven Homes professionalism and dedication. They went above and beyond to 
                     ensure a smooth and successful transaction. Thank you!</p>
+                    <div className='flex flex-row gap-2 '>
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            </div>
             </div>
         </div>
 
@@ -62,9 +84,20 @@ const Reviews = () => {
                 </div>
             </div>
             <p className={`${styles.repara} font-Roboto`}>As a seasoned CEO with years of experience in the real estate industry, I have had the opportunity to work with numerous real estate firms, but my experience 
-                with Haven Homes has been nothing short of exceptional. Their commitment to excellence, market expertise, and customer-centric approach truly set them apart in a competitive industry. One of the standout qualities of Haven Homes is their deep understanding of the market. Whether it’s residential, commercial, or investment properties, their team possesses unparalleled expertise. Their data-driven insights and ability to anticipate market trends have proven invaluable, ensuring that clients receive the most strategic advice possible.</p>
+                with Haven Homes has been nothing short of exceptional. Their commitment to excellence, market expertise, and customer-centric approach truly set them apart in a competitive industry. 
+                One of the standout qualities of Haven Homes is their deep understanding of the market. Whether it’s residential, commercial, or investment properties, their team possesses unparalleled expertise. Their data-driven insights and ability to anticipate market trends have proven invaluable, ensuring that clients receive the most strategic advice possible.</p>
+
+                <div className='flex flex-row gap-2 '>
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            </div>
         </div>
+        
     </div>
+
     <div className={`${styles.reMain} mt-3 justify-`} >
         <div className={styles.reInternalContainer}>  
             <div className='flex flex-row gap-5' >
@@ -77,6 +110,13 @@ const Reviews = () => {
             <p className={`${styles.repara} font-Roboto`}>Another significant advantage of working with Haven Homes is their extensive industry network. Their strong connections with developers, financial institutions, legal experts, and fellow real estate professionals enable them to offer comprehensive services beyond just buying and selling. Clients benefit from access to off-market properties, exclusive deals, and valuable partnerships. I highly recommend Haven Homes. They provided excellent guidance and support throughout the entire home buying process and made the entire home selling process easy and stress-free. I would definitely use their services again.
 
                             </p>
+                            <div className='flex flex-row gap-2 mt-14'>
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            </div>
         </div>
 
         <div className='flex flex-col gap-3'>
@@ -91,6 +131,13 @@ const Reviews = () => {
                    </div>
                 </div>
                 <p className={`${styles.repara} font-Roboto`} >Working with Haven Homes was a pleasure. They were honest, transparent, and always put my needs first. I highly recommend them to anyone looking to buy or sell a home.</p>
+                <div className='flex flex-row gap-2'>
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            </div>
             </div>
             <div className={ styles.reSmallCol} >
                 
@@ -102,7 +149,17 @@ const Reviews = () => {
                    </div>
                 </div>
                 <p className={`${styles.repara} font-Roboto`} >I highly recommend Haven Homes. They provided excellent guidance and support throughout the entire home buying process. They made it stress-free!</p>
+
+                <div className='flex flex-row gap-2'>
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            </div>
             </div>
+
+            
         </div>
 
         <div className={styles.reInternalContainer}>  
@@ -116,13 +173,15 @@ const Reviews = () => {
             <p className={`${styles.repara} font-Roboto`}>Another significant advantage of working with Haven Homes is their extensive industry network. Their strong connections with developers, financial institutions, legal experts, and fellow real estate professionals enable them to offer comprehensive services beyond just buying and selling. Clients benefit from access to off-market properties, exclusive deals, and valuable partnerships. I highly recommend Haven Homes. They provided excellent guidance and support throughout the entire home buying process and made the entire home selling process easy and stress-free. I would definitely use their services again.
 
                             </p>
+                            <div className='flex flex-row gap-2 mt-14'>
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            <FaStar size={20} color='#F5B843' />
+                            </div>
         </div>
-
-      
-
-      
     </div>
-
         </div>
   
    </>
