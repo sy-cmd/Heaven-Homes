@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './navbar.module.css';
 import { FaArrowUpLong,FaCalendarCheck, FaMeta ,FaXTwitter,  FaInstagram  } from "react-icons/fa6";
+import logo from '../assets/public/img/logo/Annotation 2025-03-05 162204.png'
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
             <div className={styles.footerminC}>
             <div className='flex flex-row gap-2'  >
 
-<img className='w-17 h-17 rounded-3xl ' src="/public/img/logo/Annotation 2025-03-05 162204.png" alt="" srcset="" />
+<img className='w-17 h-17 rounded-3xl ' src={logo} alt="" srcset="" />
 
 <h3 className={styles.footermainh3}>Haven Homes</h3>
 </div>

@@ -1,12 +1,13 @@
 import React from 'react'
 import styles from './navbar.module.css';
+import heroHouse from '../assets/public/img/logo/Annotation 2025-03-06 124313.png';
 
 const Hero = () => {
   return (
   <>
     <div className='bg-gray-200'>
       <div className='flex justify-self-center'>
-      <img className='w-171.5 h-59 ' src="/public/img/logo/Annotation 2025-03-06 124313.png" alt="" />
+      <img className='w-171.5 h-59 ' src={ heroHouse} alt="" />
 
       </div>
    

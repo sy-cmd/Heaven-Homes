@@ -5,6 +5,14 @@ import styles from './navbar.module.css';
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { IoIosShareAlt } from "react-icons/io";
 import { GrSave } from "react-icons/gr";
+import miniP1 from '../assets/public/img/3e732aaed2f8d0b3a20f5bbd5b5c4281 (1).jfif';
+import miniP2 from '../assets/public/img/land/29bef90b1f63e933257f2188019141c2.jfif';
+import miniP3 from '../assets/public/img/land/b94e610c7d6f34809045948f5a47ea67.jfif';
+import miniP4 from '../assets/public/img/land/dd2c4ad1d8750bbbab879a10f10925bf.jfif';
+import Land1 from '../assets//public/img/land/9929a632df4317539c3922c17e6936fe.jfif';
+import Land2 from '../assets/public/img/land/29bef90b1f63e933257f2188019141c2.jfif';
+import Land3 from '../assets/public/img/land/e981d2c6c2e3b00582eed7c7298991b5.jfif';
+
 
 
 // Import Swiper styles
@@ -22,21 +30,21 @@ const LandCarosel = () => {
     <div className={ `${styles.pslide } mb-10`} >
 
           <div className={ styles.pslidein }>
-            <img className='w-13 h-13 rounded-lg' src="/public/img/3e732aaed2f8d0b3a20f5bbd5b5c4281 (1).jfif" alt="" />
+            <img className='w-13 h-13 rounded-lg' src={miniP1} alt="" />
             <h4 className={`${styles.ptext} mt-3 font-Roboto`}>All Land Types</h4>
           </div>
 
           <div className={ styles.pslideinAll}>
-            <img className='w-13 h-13 rounded-lg' src="/public/img/land/29bef90b1f63e933257f2188019141c2.jfif" alt="" />
+            <img className='w-13 h-13 rounded-lg' src={miniP2} alt="" />
             <h4 className={`${styles.ptext} mt-3 font-Roboto`} >Ranch Land</h4>
           </div>
 
           <div className={ styles.pslideinAll}>
-            <img className='w-13 h-13 rounded-lg' src="/public/img/land/b94e610c7d6f34809045948f5a47ea67.jfif" alt="" />
+            <img className='w-13 h-13 rounded-lg' src={miniP3}  alt="" />
             <h4 className={`${styles.ptext} mt-3 font-Roboto`}>Resort Land</h4>
           </div>
           <div className={ styles.pslideinAll}>
-            <img className='w-13 h-13 rounded-lg'  src="/public/img/land/dd2c4ad1d8750bbbab879a10f10925bf.jfif" alt="" />
+            <img className='w-13 h-13 rounded-lg'  src={miniP4} alt="" />
             <h4 className={`${styles.ptext} mt-3 font-Roboto`}>Farm Land</h4>
           </div>
     </div>
@@ -68,7 +76,7 @@ const LandCarosel = () => {
       <SwiperSlide className='swiper-slide slide-1' >
         <div className={styles.slideMin}>
           <div className={styles.slideImg }>
-            <img src="/public/img/land/9929a632df4317539c3922c17e6936fe.jfif" alt="" />
+            <img src={Land1} alt="" />
           </div>
           <div className='flex flex-row justify-between'>
             <div className='flex flex-col'>
@@ -91,7 +99,7 @@ const LandCarosel = () => {
       <SwiperSlide className='swiper-slide slide-1' >
         <div className={styles.slideMin}>
           <div className={styles.slideImg }>
-            <img src="/public/img/land/29bef90b1f63e933257f2188019141c2.jfif" alt="" />
+            <img src={Land2} alt="" />
           </div>
           <div className='flex flex-row justify-between'>
             <div className='flex flex-col'>
@@ -114,7 +122,7 @@ const LandCarosel = () => {
       <SwiperSlide className='swiper-slide slide-1' >
         <div className={styles.slideMin}>
           <div className={styles.slideImg }>
-            <img src="/public/img/land/e981d2c6c2e3b00582eed7c7298991b5.jfif" alt="" />
+            <img src={Land3} alt="" />
           </div>
           <div className='flex flex-row justify-between'>
             <div className='flex flex-col'>
@@ -137,7 +145,7 @@ const LandCarosel = () => {
       <SwiperSlide className='swiper-slide slide-1' >
         <div className={styles.slideMin}>
           <div className={styles.slideImg }>
-            <img src="/public/img/land/9929a632df4317539c3922c17e6936fe.jfif" alt="" />
+            <img src={Land1} alt="" />
           </div>
           <div className='flex flex-row justify-between'>
             <div className='flex flex-col'>
@@ -160,7 +168,7 @@ const LandCarosel = () => {
       <SwiperSlide className='swiper-slide slide-1' >
         <div className={styles.slideMin}>
           <div className={styles.slideImg }>
-            <img src="/public/img/land/29bef90b1f63e933257f2188019141c2.jfif" alt="" />
+            <img src={Land2} alt="" />
           </div>
           <div className='flex flex-row justify-between'>
             <div className='flex flex-col'>
@@ -183,7 +191,7 @@ const LandCarosel = () => {
       <SwiperSlide className='swiper-slide slide-1' >
         <div className={styles.slideMin}>
           <div className={styles.slideImg }>
-            <img src="/public/img/land/e981d2c6c2e3b00582eed7c7298991b5.jfif" alt="" />
+            <img src={Land3} alt="" />
           </div>
           <div className='flex flex-row justify-between'>
             <div className='flex flex-col'>
@@ -206,7 +214,7 @@ const LandCarosel = () => {
       <SwiperSlide className='swiper-slide slide-1' >
         <div className={styles.slideMin}>
           <div className={styles.slideImg }>
-            <img src="/public/img/land/9929a632df4317539c3922c17e6936fe.jfif" alt="" />
+            <img src={Land1} alt="" />
           </div>
           <div className='flex flex-row justify-between'>
             <div className='flex flex-col'>
@@ -229,7 +237,7 @@ const LandCarosel = () => {
       <SwiperSlide className='swiper-slide slide-1' >
         <div className={styles.slideMin}>
           <div className={styles.slideImg }>
-            <img src="/public/img/land/29bef90b1f63e933257f2188019141c2.jfif" alt="" />
+            <img src={Land2} alt="" />
           </div>
           <div className='flex flex-row justify-between'>
             <div className='flex flex-col'>
@@ -252,7 +260,7 @@ const LandCarosel = () => {
       <SwiperSlide className='swiper-slide slide-1' >
         <div className={styles.slideMin}>
           <div className={styles.slideImg }>
-            <img src="/public/img/land/e981d2c6c2e3b00582eed7c7298991b5.jfif" alt="" />
+            <img src={Land3} alt="" />
           </div>
           <div className='flex flex-row justify-between'>
             <div className='flex flex-col'>
@@ -275,7 +283,7 @@ const LandCarosel = () => {
       <SwiperSlide className='swiper-slide slide-1' >
         <div className={styles.slideMin}>
           <div className={styles.slideImg }>
-            <img src="/public/img/land/9929a632df4317539c3922c17e6936fe.jfif" alt="" />
+            <img src={Land1} alt="" />
           </div>
           <div className='flex flex-row justify-between'>
             <div className='flex flex-col'>
@@ -298,7 +306,7 @@ const LandCarosel = () => {
       <SwiperSlide className='swiper-slide slide-1' >
         <div className={styles.slideMin}>
           <div className={styles.slideImg }>
-            <img src="/public/img/land/29bef90b1f63e933257f2188019141c2.jfif" alt="" />
+            <img src={Land2} alt="" />
           </div>
           <div className='flex flex-row justify-between'>
             <div className='flex flex-col'>
@@ -321,7 +329,7 @@ const LandCarosel = () => {
       <SwiperSlide className='swiper-slide slide-1' >
         <div className={styles.slideMin}>
           <div className={styles.slideImg }>
-            <img src="/public/img/land/e981d2c6c2e3b00582eed7c7298991b5.jfif" alt="" />
+            <img src={Land3} alt="" />
           </div>
           <div className='flex flex-row justify-between'>
             <div className='flex flex-col'>
@@ -341,6 +349,14 @@ const LandCarosel = () => {
           </div>
         </div>
       </SwiperSlide>
+
+
+
+
+
+
+
+     
      
 
     </Swiper>
