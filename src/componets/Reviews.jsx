@@ -2,6 +2,16 @@ import React from 'react'
 import styles from './navbar.module.css';
 import { FaStar } from "react-icons/fa";
 
+
+import imgRe1 from '../assets/public/img/Reviews/786b226d5d70e39a1dfa0e817fee1e4d.jfif';
+import imgRe2 from '../assets/public/img/Reviews/367bb3942476bc56328ab6c43b7a75d8.jfif';
+import imgRe3 from '../assets/public/img/Reviews/88ba2be5b4f555a16238a8536bb2372a.jfif';
+import imgRe4 from '../assets/public/img/Reviews/3141430bf7e23b086b9a8323f0afd0aa.jfif';
+import imgRe5 from '../assets/public/img/Reviews/270613ec07e31b96acbc3a664717b0aa.jfif';
+import imgRe6 from '../assets/public/img/Reviews/0db471587300aebc6038b4b88d3a8aa8.jfif';
+import imgRe7 from '../assets/public/img/Reviews/0b5a83140e687b3b96f3c0eaa886d70a.jfif';
+import imgRe8 from '../assets/public/img/Reviews/325f5b9852308c72dd68e2b446454903.jfif';
+
 const Reviews = () => {
   return (
    <>
@@ -12,10 +22,11 @@ const Reviews = () => {
         <p className={`${styles.textpa} font-Roboto `} >Discover what our satisfied clients have to say about their seamless buying, selling, and renting experiences with us</p>
     </div>
     
+
     <div className={`${styles.reMain} mt-10`} >
         <div className={styles.reInternalContainer}>  
             <div className='flex flex-row gap-5' >
-                <img className={styles.reimg}  src="/public/img/367bb3942476bc56328ab6c43b7a75d8.jfif" alt="" srcset="" />
+                <img className={styles.reimg}  src={imgRe1} alt="" srcset="" />
                 <div className='flex flex-col  gap-2'>
                 <p className={`${styles.rename} font-Roboto`}>Wade Warren</p>
                 <p className={`${styles.resubName} font-Roboto`}>McDonald's</p>
@@ -38,7 +49,7 @@ const Reviews = () => {
             <div className={ styles.reSmallCol} >
                 
                 <div className='flex gap-5' >
-                <img className={ styles.reimg } src="/public/img/367bb3942476bc56328ab6c43b7a75d8.jfif" alt="" />
+                <img className={ styles.reimg } src={imgRe3} alt="" />
                    <div className='flex flex-col gap-3 '>
                     <p className={`${styles.rename} font-Roboto`} > Jenny Wilson</p>
                     <p className={`${styles.resubName} font-Roboto`}>IBM</p>
@@ -57,7 +68,7 @@ const Reviews = () => {
             <div className={ styles.reSmallCol} >
                 
                 <div className='flex gap-5' >
-                <img className={ styles.reimg } src="/public/img/367bb3942476bc56328ab6c43b7a75d8.jfif" alt="" />
+                <img className={ styles.reimg } src={imgRe4} alt="" />
                    <div className='flex flex-col gap-3 '>
                     <p className={`${styles.rename} font-Roboto`} > Brooklyn Simmons</p>
                     <p className={`${styles.resubName} font-Roboto`}>McDonald's</p>
@@ -77,7 +88,7 @@ const Reviews = () => {
 
         <div className={styles.reInternalContainer}>  
             <div className='flex flex-row gap-5' >
-                <img className={styles.reimg}  src="/public/img/367bb3942476bc56328ab6c43b7a75d8.jfif" alt="" srcset="" />
+                <img className={styles.reimg}  src={imgRe2} alt="" srcset="" />
                 <div className='flex flex-col  gap-2'>
                 <p className={`${styles.rename} font-Roboto`}>Jane Cooper</p>
                 <p className={`${styles.resubName} font-Roboto`}>eBay</p>
@@ -101,7 +112,7 @@ const Reviews = () => {
     <div className={`${styles.reMain} mt-3 justify-`} >
         <div className={styles.reInternalContainer}>  
             <div className='flex flex-row gap-5' >
-                <img className={styles.reimg}  src="/public/img/367bb3942476bc56328ab6c43b7a75d8.jfif" alt="" srcset="" />
+                <img className={styles.reimg} src={imgRe5} alt="" srcset="" />
                 <div className='flex flex-col  gap-2'>
                 <p className={`${styles.rename} font-Roboto`}>Robert Fox</p>
                 <p className={`${styles.resubName} font-Roboto`}>Apple</p>
@@ -124,7 +135,7 @@ const Reviews = () => {
             <div className={ styles.reSmallCol} >
                 
                 <div className='flex gap-5' >
-                <img className={ styles.reimg } src="/public/img/367bb3942476bc56328ab6c43b7a75d8.jfif" alt="" />
+                <img className={ styles.reimg } src={imgRe6} alt="" />
                    <div className='flex flex-col gap-3 '>
                     <p className={`${styles.rename} font-Roboto`} > Cody Fisher</p>
                     <p className={`${styles.resubName} font-Roboto`}>Gillette</p>
@@ -142,7 +153,7 @@ const Reviews = () => {
             <div className={ styles.reSmallCol} >
                 
                 <div className='flex gap-5' >
-                <img className={ styles.reimg } src="/public/img/367bb3942476bc56328ab6c43b7a75d8.jfif" alt="" />
+                <img className={ styles.reimg } src={imgRe7} alt="" />
                    <div className='flex flex-col gap-3 '>
                     <p className={`${styles.rename} font-Roboto`} > Floyd miles</p>
                     <p className={`${styles.resubName} font-Roboto`}>MasterCard</p>
@@ -164,7 +175,7 @@ const Reviews = () => {
 
         <div className={styles.reInternalContainer}>  
             <div className='flex flex-row gap-5' >
-                <img className={styles.reimg}  src="/public/img/367bb3942476bc56328ab6c43b7a75d8.jfif" alt="" srcset="" />
+                <img className={styles.reimg}  src={imgRe8} alt="" srcset="" />
                 <div className='flex flex-col  gap-2'>
                 <p className={`${styles.rename} font-Roboto`}>Robert Fox</p>
                 <p className={`${styles.resubName} font-Roboto`}>Apple</p>
