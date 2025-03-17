@@ -17,17 +17,17 @@ const Agents = () => {
    <>
        
     <div className={ `${styles.bgS} mt-50`}>
-    <div className='flex flex-col justify-self-center mb-10 gap-5'>
+    <div className='flex flex-col justify-self-center items-center mb-10 gap-5 max-lg:w-177 h-43'>
             <h3 className={styles.textH1}> Your Partner in Building</h3>
             <p className={styles.textpa}>From vision to reality, we oversee every detail of your construction project, ensuring your dream home becomes a tangible masterpiece.</p>
-            <div className='flex flex-row gap-10 ml-80'>
+            <div className='flex flex-row gap-10 '>
                 <button className={ styles.navbutton1}>Get started</button>
                 <button className={ styles.herobtn2}>Learn more</button>
             </div>
         </div>
 
     <div className={ `${styles.content}`} >
-        <div className='flex gap-3  justify-center '>
+        <div className='flex gap-3 flex-row   justify-center  max-lg:flex max-lg:flex-col'>
             <div className={styles.tb}>
                  <LuHammer size={33} color='#0A2540' />
 
@@ -98,7 +98,8 @@ const Agents = () => {
             </div>
           
         </div>
-        <div className='flex gap-3  justify-center'>
+
+        <div className='flex flex-row gap-3  justify-center max-lg:flex  max-lg:flex-col '>
             <div className={styles.tb}>
                  <IoChatboxEllipsesOutline size={30} color='#0A2540' backgr />
 

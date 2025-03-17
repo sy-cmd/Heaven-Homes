@@ -42,6 +42,8 @@ breakpoints={{
   430: { spaceBetween:50 },
   580: { spaceBetween:70 },
   650: { spaceBetween:30 },
+  768: {  width: 768,
+    slidesPerView: 2, },
 }}
 >
   <SwiperSlide className='swiper-slide slide-1' >

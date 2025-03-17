@@ -63,10 +63,14 @@ const CardSlider = () => {
       slideToClickedSlide={true}
       pagination={{ clickable: true }}
       breakpoints={{
-        320: { spaceBetween:40 },
-        430: { spaceBetween:50 },
+        320: { spaceBetween:70 },
+        430: { slidesPerView: 1, },
         580: { spaceBetween:70 },
         650: { spaceBetween:30 },
+        734: {  width: 768,
+          slidesPerView: 1, },
+        768: {  width: 768,
+          slidesPerView: 2, },
       }}
       >
         <SwiperSlide className='swiper-slide slide-1' >

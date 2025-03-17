@@ -7,6 +7,8 @@ import { TbAward } from "react-icons/tb";
 import { FaStar } from "react-icons/fa";
 import { VscLocation } from "react-icons/vsc";
 import { SlEnvolope } from "react-icons/sl";
+import A1  from '../assets/public/img/agent/4eca6080adf4a40bf122ec344b6016d5 (1).jfif';
+import A2  from '../assets/public/img/agent/5abf7fb8c0eb3eab2663263c1235d240 (1).png';
 
 
 function AgentCard() {
@@ -113,7 +115,7 @@ function AgentCard() {
         <h4 className={`${styles.Agentcardh4} font-Roboto `}> Contact info</h4>
             <div className={styles.Agentca2min}>
                 <div className={styles.Agentca2content1}>
-                    <img className={styles.Agentca2img1} src="/public/img/agent/4eca6080adf4a40bf122ec344b6016d5 (1).jfif" alt="" />
+                    <img className={styles.Agentca2img1} src={A1} alt="" />
                     <div>
                         <div className='flex flex-row gap-1'>
                         <FaStar size={10} color='#F5B843' />
@@ -125,7 +127,7 @@ function AgentCard() {
                             <p className={`${styles.Agentca2para2} font-Roboto `}>Alaska, USA</p>
                         </div>
                     </div>
-                    <img className={styles.Agentca2img2} src="/public/img/agent/5abf7fb8c0eb3eab2663263c1235d240 (1).png" alt="" />
+                    <img className={styles.Agentca2img2} src={A2} alt="" />
                 </div>
 
                 <div className={styles.Agentca2cont}>
