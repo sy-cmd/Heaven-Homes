@@ -45,6 +45,8 @@
 }
 
 .navbutton1{
+    width: 160px;
+    height: 55px;
     border-radius: 12px;
     padding: 18px 36px 18px 36px;
     background-color: #0A2540;
@@ -52,17 +54,76 @@
     font-size: 16px;
     line-height: 18.75px;
     text-align: center;
+    cursor: pointer;
+    
+}
+
+:hover.navbutton1{
+    background-color: #294c6e ;
+    text-align: white;
+}
+
+:hover.navbutton2{
+    background-color: #6dded3;
+    text-align: white;
 }
 
 .navbutton2{
+    width: 160px;
+    height: 55px;
     border-radius: 12px;
     padding: 18px 36px 18px 36px;
     background-color: #4DB6AC;
     color: #333333;
     font-size: 16px;
     line-height: 18.75px;
-    text-align: center;
+    
+    cursor: pointer;
 }
+.navp{
+    width: 88px;
+    height: 19px;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0%;
+    right:0%;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #ffffff5a;
+    backdrop-filter: blur(20px);
+    box-shadow:  -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    transition: 0.90s ease;
+    transition: all .90s ease;
+    
+}
+
+.menubarbtn{
+    display: none;
+    
+}
+
+.closebtn{
+    cursor: pointer;
+    color: #0A2540;
+
+}
+
+
+
 
 /* hero-section here */
 
@@ -88,6 +149,8 @@
     color: #0A2540;
 }
 
+
+
 .heroP{
     font-size: 16px;
     font-weight: 300;
@@ -102,6 +165,7 @@
     background-color: #0A2540;
     color: white;
     font-size: 16px;
+    cursor: pointer;
    
 }
 
@@ -113,6 +177,17 @@
     font-weight: 600;
     line-height: 18.75px;
     align-items: center;
+    cursor: pointer;
+}
+
+:hover.herobtn1{
+    background-color: #294c6e ;
+    text-align: white;
+}
+
+:hover.herobtn2{
+    background-color: #fdf7f7 ;
+    text-align: white;
 }
 
 .btnC{
@@ -187,6 +262,11 @@
     background-color: #0A2540;
     color: #FFFFFF;
     letter-spacing: 0px;
+    cursor: pointer;
+}
+:hover.searchbtn{
+    background-color: #294c6e ;
+    text-align: white;
 }
 
 /* text-header */
@@ -1122,9 +1202,13 @@ span{
 
 .footermainC{
     margin-top: 5%;
-    /* width: 1140px; */
-    /* height: 911px; */
+    width: 1440px;
+    height: 911px;
     background-color:#0A2540 ;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    gap: 20px;
 }
 
 .footerminC{
@@ -1202,4 +1286,145 @@ span{
 
 }
 
+
+/* MEDIA */
+
+@media(max-width:1024px ){
+    .menubarbtn{
+        display: flex;
+        color: #0A2540;
+        cursor: pointer;
+        
+    }
+    .closebtn{
+        color: #0A2540;
+        cursor: pointer;
+        transition: 0.90s ease-in-out;
+    }
+    .home{
+        display: none;
+    }
+
+    .search{
+        width: 843px;
+        height: 225px;
+    }
+    
+    .carBg{
+        width: 843px;
+        height: 1569px;
+        border-radius: 16px;
+        border: 20px solid #FFFFFF;
+        padding: 40px 40px 60px 40px;
+        background-color: #F2F2F2;
+        display: grid;
+        justify-self: center;
+    }
+
+    .slideMinContainer{
+        width: 768px;
+        height: 476px;
+        display: flex;
+        justify-self: center;
+        align-content: center;
+      
+    }
+
+    .pslide{
+        margin-left: -2%;
+        width: 760px;
+        height: 90px;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        border-radius:20px ;
+        padding: 12px 20px 12px 20px ;
+        background-color:#FFFFFF ;
+    }
+
+    .card1{
+        margin-top: 3%;
+        display: flex;
+        flex-direction: row;
+        width: 662px;
+        height: 806px;
+        border-radius: 12px;
+        border: 10px solid #FFFFFF;
+        padding: 40px;
+        background-color:#F2F2F2 ;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .cardIn{
+        width: 271px;
+        height: 343px;
+      
+    }
+
+  
+
+    .reMain{
+        width: 843px;
+        height: 767px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .reInternalContainer{
+        width: 282px;
+        height: 767px;
+   
+    }
+
+    .reSmallCol{
+        width:253px ;
+        height: 378px;
+
+    }
+    .content{
+        width: 632px;
+        height: 792px;
+        display: flex;
+    }
+    .BarmainContainer{
+        width: 843px ;
+        height: 400px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        background-color:#0A2540 ;
+        justify-self: center;
+        align-items: center;
+        color: #FFFFFF;
+        margin-top: 5%;
+    }
+
+    .footermainC{
+        margin-top: 5%;
+        width: 1024px;
+        height: 1433px;
+        background-color:#0A2540 ;
+    }
+    .footerminC{
+        width: 834px;
+        height: 656px;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        justify-self: center;
+        justify-content: start;
+        padding-top: 2%;
+    
+    }
+    .footerbtn{
+        width: 151px;
+        height: 55px;
+    
+    
+    }
+
+}
 

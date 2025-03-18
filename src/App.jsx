@@ -24,10 +24,11 @@ import TextHeader3 from './componets/TextHeader3';
 
 
 
+
 const App = () => {
   return (
     <>
-    <div className='bg-gray-200'>
+    <div className='bg-gray-200 sm'>
      <NavBar/>
      <Hero />
       <Bar/>
@@ -43,6 +44,9 @@ const App = () => {
       <BarMain/>
 
       <Footer/>
+     
+ 
+
  
     
    
